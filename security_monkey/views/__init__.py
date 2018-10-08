@@ -83,16 +83,16 @@ USER_SETTINGS_FIELDS = {
 }
 
 # SINGLE USE - AccountGet
-ACCOUNT_FIELDS = {
-    'id': fields.Integer,
-    'name': fields.String,
-    'identifier': fields.String,
-    'notes': fields.String,
-    'active': fields.Boolean,
-    'third_party': fields.Boolean,
-    'account_type': fields.String,
-    'custom_fields': fields.Raw
-}
+# ACCOUNT_FIELDS = {
+#     'id': fields.Integer,
+#     'name': fields.String,
+#     'identifier': fields.String,
+#     'notes': fields.String,
+#     'active': fields.Boolean,
+#     'third_party': fields.Boolean,
+#     'account_type': fields.String,
+#     'custom_fields': fields.Raw
+# }
 
 USER_FIELDS = {
     'id': fields.Integer,
